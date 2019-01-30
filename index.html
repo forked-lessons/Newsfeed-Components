@@ -1,116 +1,352 @@
 <!-- Do not add anything to the HTML until Part 3 of the project -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lambda School Newsfeed</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/index.css" />
-    <script src="./Menu/Menu.js" async></script>
-    <script src="./Article/Article.js" async></script>
-  </head>
-  <body>
-    <div class="header">
-      <img class="menu-button" src="./assets/menu.png"/>
-      <h1>Lambda School Newsfeed</h1>
-    </div>
-    <div class="menu">
-      <ul>
-        <li>Students</li>
-        <li>Faculty</li>
-        <li>What's New</li>
-        <li>Tech Trends</li>
-        <li>Music</li>
-        <li>Log Out</li>
-      </ul>
-    </div>
-    <div class="articles">
-      <div class="article">
-        <h2>Lambda School Students: "We're the best!"</h2>
-        <p class="date">Nov 5th, 2017</p>
 
-        <p>Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
-        moff wicket tatooine luke. Solo wampa wampa calrissian yoda moff. Darth grievous darth gonk darth hutt. Darth baba skywalker
-        watto fett jango maul han. Mon ewok sidious sidious lando kenobi grievous gamorrean solo. Yoda wedge utapau darth calamari.
-        Hutt calamari darth jabba. Darth dooku amidala organa moff. Boba darth binks solo hutt skywalker dantooine skywalker. Qui-gonn
+<head>
+  <title>Lambda School Newsfeed</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="./CSS/index.css" />
+
+  <script src="./Menu/Menu.js" async></script>
+  <script src="./Article/Article.js" async></script>
+</head>
+
+<body>
+  <div class="header">
+    <img class="menu-button" src="./assets/menu.png" />
+    <h1>Lambda School Newsfeed</h1>
+  </div>
+  <div class="menu">
+    <ul>
+      <li>Students</li>
+      <li>Faculty</li>
+      <li>What's New</li>
+      <li>Tech Trends</li>
+      <li>Music</li>
+      <li>Log Out</li>
+    </ul>
+  </div>
+  <div class="articles">
+    <div class="article">
+      <h2>Lambda School Students: "We're the best!"</h2>
+      <p class="date">Nov 5th, 2017</p>
+
+      <p>Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura
+        skywalker lando
+        moff wicket tatooine luke. Solo wampa wampa calrissian yoda moff. Darth grievous darth gonk darth hutt. Darth
+        baba skywalker
+        watto fett jango maul han. Mon ewok sidious sidious lando kenobi grievous gamorrean solo. Yoda wedge utapau
+        darth calamari.
+        Hutt calamari darth jabba. Darth dooku amidala organa moff. Boba darth binks solo hutt skywalker dantooine
+        skywalker. Qui-gonn
         jar twi'lek jinn leia jango skywalker mon. </p>
 
-        <p>Grievous fett calamari anakin skywalker hutt. Alderaan darth kenobi darth r2-d2
-        windu mothma. Sidious darth calamari moff. Wampa mothma sith wedge solo mara. Darth gonk maul sith moff chewbacca palpatine
-        mace amidala. C-3po solo skywalker anakin yoda leia. Maul wampa bespin watto jade ewok darth jabba. Lando dantooine moff
-        k-3po dantooine luke. Fisto mandalore darth wedge c-3p0 ahsoka. Secura moff palpatine fett. Anakin sith darth darth. Moff
-        solo leia ben ponda jade. Binks jango aayla skywalker skywalker cade. Mustafar darth ventress anakin watto. Yavin jawa sebulba
+      <p>Grievous fett calamari anakin skywalker hutt. Alderaan darth kenobi darth r2-d2
+        windu mothma. Sidious darth calamari moff. Wampa mothma sith wedge solo mara. Darth gonk maul sith moff
+        chewbacca palpatine
+        mace amidala. C-3po solo skywalker anakin yoda leia. Maul wampa bespin watto jade ewok darth jabba. Lando
+        dantooine moff
+        k-3po dantooine luke. Fisto mandalore darth wedge c-3p0 ahsoka. Secura moff palpatine fett. Anakin sith darth
+        darth. Moff
+        solo leia ben ponda jade. Binks jango aayla skywalker skywalker cade. Mustafar darth ventress anakin watto.
+        Yavin jawa sebulba
         owen jinn tatooine sith organa.</p>
 
-        <p>Dagobah hutt jawa leia calamari ventress skywalker yoda. Binks wicket hutt coruscant sidious
-        naboo ackbar tatooine. Hutt lars padmé darth. Maul solo darth darth jabba qui-gon chewbacca darth maul. Moff baba wicket
-        han. C-3po antilles moff qui-gon ahsoka aayla dooku amidala. Palpatine droid amidala droid k-3po twi'lek padmé wookiee. Leia
+      <p>Dagobah hutt jawa leia calamari ventress skywalker yoda. Binks wicket hutt coruscant sidious
+        naboo ackbar tatooine. Hutt lars padmé darth. Maul solo darth darth jabba qui-gon chewbacca darth maul. Moff
+        baba wicket
+        han. C-3po antilles moff qui-gon ahsoka aayla dooku amidala. Palpatine droid amidala droid k-3po twi'lek padmé
+        wookiee. Leia
         moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.</p>
-        <span class='expandButton'></span>
-      </div>
-      <div class="article">
-        <h2>Javascript and You, ES6</h2>
-        <p class="date">Nov 7th, 2017</p>
-        <p>Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost
-        Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot
-        snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods
-        yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus mimbletonia Pigwidgeon
-        knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders You-Know-Who cursed.
+      <span class='expandButton'></span>
+    </div>
+    <div class="article">
+      <h2>Javascript and You, ES6</h2>
+      <p class="date">Nov 7th, 2017</p>
+      <p>Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur
+        portkey ghost
+        Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses,
+        Knight-Bus. Padfoot
+        snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell
+        lies. Mudbloods
+        yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus
+        mimbletonia Pigwidgeon
+        knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders
+        You-Know-Who cursed.
         Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.</p>
-      
-        <p>Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of Glory elder
-        wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir
-        mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second bedroom. Padma
-        and Parvati Sorting Hat Minister of Magic blue turban remember my last.</p>
-        <span class='expandButton'></span>
-      </div>
-      <div class="article">
-        <h2>React vs Angular vs Vue</h2>
-        <p class="date">Nov 7th, 2017</p>
 
-        <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit. Caterpie Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Metapod Lorem ipsum dolor sit amet, consectetur adipiscing elit. Butterfree
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Weedle Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet, consectetur adipiscing
+      <p>Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of
+        Glory elder
+        wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells tap-dancing spider
+        Slytherin’s Heir
+        mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second
+        bedroom. Padma
+        and Parvati Sorting Hat Minister of Magic blue turban remember my last.</p>
+      <span class='expandButton'></span>
+    </div>
+    <div class="article">
+      <h2>React vs Angular vs Vue</h2>
+      <p class="date">Nov 7th, 2017</p>
+
+      <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum
+        dolor sit amet,
+        consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Caterpie Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Metapod Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Butterfree
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Weedle Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet,
+        consectetur adipiscing
         elit.</p>
 
-        <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Raticate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Spearow Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Fearow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ekans Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Arbok Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pikachu Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Raichu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sandshrew Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Sandslash Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Nidorina Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoqueen Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem ipsum dolor
+      <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raticate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Spearow Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Fearow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ekans Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Arbok Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pikachu Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raichu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sandshrew Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Sandslash Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Nidorina Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoqueen Lorem ipsum dolor
+        sit amet,
+        consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
+        ipsum dolor
         sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
-        <span class='expandButton'></span>
-      </div>
-      <div class="article">
-        <h2>Professional Software Development in 2018</h2>
-        <p class="date">Nov 7th, 2017</p>
-        <p>Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
-          hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
-          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? </p>
-        
-        <p>Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
-          hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
-          hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
-          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>
-        
-        <p>Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
-          Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
-          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.
-          </p>
-
-        <p>Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
-          hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
-          hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
-          hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>
-        <span class='expandButton'></span>
-      </div>
+      <span class='expandButton'></span>
     </div>
-  </body>
+    <div class="article">
+      <h2>Professional Software Development in 2018</h2>
+      <p class="date">Nov 7th, 2017</p>
+      <p>Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor
+        hodor, hodor, hodor
+        hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor
+        hodor, hodor.
+        Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? </p>
+
+      <p>Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor
+        hodor, hodor;
+        hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor.
+        Hodor, HODOR
+        hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor
+        hodor?! Hodor
+        hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>
+
+      <p>Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor;
+        hodor hodor? Hodor!
+        Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor.
+        Hodor, hodor.
+        Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor
+        hodor. Hodor.
+      </p>
+
+      <p>Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor
+        hodor, hodor;
+        hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor.
+        Hodor, HODOR
+        hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor
+        hodor?! Hodor
+        hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>
+      <span class='expandButton'></span>
+    </div>
+    <div class="article">
+      <h2>Wow these are all Articles</h2>
+      <p class="date">Nov 7th, 2017</p>
+
+      <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum
+        dolor sit amet,
+        consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Caterpie Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Metapod Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Butterfree
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Weedle Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit.</p>
+
+      <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raticate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Spearow Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Fearow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ekans Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Arbok Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pikachu Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raichu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sandshrew Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Sandslash Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Nidorina Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoqueen Lorem ipsum dolor
+        sit amet,
+        consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
+      <span class='expandButton'></span>
+    </div>
+    <div class="article">
+      <h2>My Mother said I was unique but I'm just another Article </h2>
+      <p class="date">Nov 7th, 2017</p>
+
+      <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum
+        dolor sit amet,
+        consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Caterpie Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Metapod Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Butterfree
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Weedle Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit.</p>
+
+      <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raticate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Spearow Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Fearow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ekans Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Arbok Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pikachu Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raichu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sandshrew Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Sandslash Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Nidorina Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoqueen Lorem ipsum dolor
+        sit amet,
+        consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
+      <span class='expandButton'></span>
+    </div>
+    <div class="article">
+      <h2>Hi! Article here</h2>
+      <p class="date">Nov 7th, 2017</p>
+
+      <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum
+        dolor sit amet,
+        consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Caterpie Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Metapod Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Butterfree
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Weedle Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit.</p>
+
+      <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raticate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Spearow Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Fearow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ekans Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Arbok Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pikachu Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Raichu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sandshrew Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Sandslash Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Nidorina Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidoqueen Lorem ipsum dolor
+        sit amet,
+        consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
+      <span class='expandButton'></span>
+    </div>
+    <div class="article">
+      <h2>This is an article</h2>
+      <p class="date">Nov 7th, 2017</p>
+
+      <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
+        consectetur
+        adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum
+        dolor sit amet,
+        consectetur adipiscing elit. Squirtle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wartortle Lorem
+        ipsum dolor
+        sit amet, consectetur adipiscing elit. Blastoise Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Caterpie Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Metapod Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Butterfree
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Weedle Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet,
+        consectetur adipiscing
+        elit.</p>
+
+      <p>When you walked through the door. It was clear to me (Clear to me). You’re the one they adore. Who they came
+        to see (Who they came to see). You’re a rock star (Baby). Everybody wants you (Everybody wants you). Player,
+        who can really blame you? (Who can really blame you?). We’re the ones who made you.I've created a monster,
+        ‘cause nobody wants to. See Marshall no more, they want Shady, I'm chopped liver. Well, if you want Shady, this
+        is what I'll give ya. A little bit of weed mixed with some hard liquor. Some vodka that'll jump start my heart
+        quicker. Than a shock when I get shocked at the hospital.When you walked through the door. It was clear to me
+        (Clear to me). You’re the one they adore. Who they came to see (Who they came to see). You’re a rock star
+        (Baby). Everybody wants you (Everybody wants you). Player, who can really blame you? (Who can really blame
+        you?). We’re the ones who made you.Feminist women love Eminem. "Chicka, chicka, chicka, Slim Shady, I'm sick of
+        him. Look at him, walkin' around, grabbin' his you-know-what. Flippin' the you-know-who," "Yeah, but he's so
+        cute though.". Yeah, I probably got a couple of screws up in my head loose. But no worse than what's goin' on
+        in your parents' bedrooms.I never meant to give you mushrooms, girl. I never meant to bring you to my world.
+        Now you sitting in the corner crying. And now it's my fault, my fault. I never meant to give you mushrooms,
+        girl. I never meant to bring you to my world. Now you sitting in the corner crying. And now it's my fault, my
+        fault.If you could count the skeletons in my closet. Under my bed and up under my faucet. Then you would know
+        I've completely lost it. Is he nuts? No, he's insane. If you could count the skeletons in my closet. Under my
+        bed and up under my faucet. Then you would know I've completely lost it. Is he nuts? No, he's insane.When you
+        walked through the door. It was clear to me (Clear to me). You’re the one they adore. Who they came to see (Who
+        they came to see). You’re a rock star (Baby). Everybody wants you (Everybody wants you). Player, who can really
+        blame you? (Who can really blame you?). We’re the ones who made you.The way she moves, she's like a
+        belly-dancer. She's shaking that ass to the new Nelly jams. I think someone's at the door but I don't think
+        I'mma answer. Police saying 'freeze!': do-doing, doing, doing. What do you mean, 'freeze'? Please, I'm a human
+        being!. I have needs! I'm NOT done, not 'til I'm finished peeing.I'm Slim Shady, yes, I'm the real Shady. All
+        you other Slim Shadys are just imitating. So won't the real Slim Shady please stand up. Please stand up, please
+        stand up?. 'Cause I'm Slim Shady, yes, I'm the real Shady. All you other Slim Shadys are just imitating. So
+        won't the real Slim Shady please stand up. Please stand up, please stand up?Can't you see what you do to me,
+        baby?. You make me crazy, you make me act like a maniac. I'm like a lunatic, you make me sick. You're truly the
+        only one who can do this to me. You just make me get so crazy. I go schizo, I get so insane I just go
+        schizophrenic. One minute I wanna slit your throat, the next I wanna sex.I’m the American Dream. I’m the
+        definiton of white trash ballin’. I’m right back on 'em. With a (chicka chicka chicka) I can’t call it. Same
+        shit, different toilet. Oh, you got a nice ass, darling. Can’t wait to get you into my Benz, take you for a
+        spin. What you mean we ain't fuckin’? You take me for a friend?. Let me tell you the whole story of Shady’s
+        origin.</p>
+      <span class='expandButton'></span>
+    </div>
+  </div>
+</body>
+
 </html>
